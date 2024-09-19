@@ -281,15 +281,16 @@ h2 {
 input {
   appearance: none;
   width: 70%;
+  overflow: visible;
   display: flex;
+  background-color: transparent;
 }
 input::-webkit-slider-thumb {
   appearance: none;
-  background-color: green;
+  background-color: #1bd760;
   height: 15px;
   width: 15px;
-  justify-content: center;
-  margin-bottom: 20px;
+  margin-top: -4px;
   border-radius: 50%;
 }
 input::-webkit-slider-runnable-track {
@@ -297,7 +298,6 @@ input::-webkit-slider-runnable-track {
   height: 4px;
   background-color: white;
   border-radius: 50px;
-  margin: 0px 10px 0 10px;
 }
 @media (max-width: 1000px) {
   .hide {
